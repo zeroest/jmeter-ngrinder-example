@@ -53,6 +53,10 @@
 - Ramp-Up Period: Thread(Virtual User) 생성에 걸리는 시간을 의미합니다. Ramp-Up Period를 이해하기 쉽도록 작성한 그래프입니다.이 그래프는 '10개의 Thread를 50초 동안 차례대로 생성하라'는 의미입니다. 즉, 5초(50초/10개)마다 Thread를 하나씩 생성하는 것과 같은 의미입니다.
 
 - Throughput: 단위 시간당 대상 서버(웹서버, WAS, DB 등)에서 처리되는 요청의 수를 말합니다. JMeter에서는 시간 단위를 보통 TPS(Transaction Per Second)로 표현합니다.
+  - PPS(Page Per Second) : 웹 시스템에서 특정 페이지에 대한 요청.
+  - RPS(Request Per Second)
+  - TPS(Transaction Per Second) : 데이터베이스의 트랜잭션 기반 시스템에서 사용.
+  - BPS(Bits Per Second) : 네트워크의 경우는 초당 비트 수
 
 - Response Time/Load Time: 응답시간 또는 처리시간이라고 표현합니다. 요청을 보낸 후 응답이 완료되어 사용자 화면에 출력될때까지의 시간을 나타냅니다. 시스템의 성능을 평가하는 지표로 주로 사용됩니다.
 
